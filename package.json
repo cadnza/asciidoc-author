@@ -6,6 +6,10 @@
 	"engines": {
 		"vscode": "^1.6.0"
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/cadnza/asciidoc-author-highlighting"
+	},
 	"publisher": "cadnza",
 	"categories": [
 		"Other"
