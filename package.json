@@ -1,0 +1,24 @@
+{
+	"name": "asciidoc-author-highlighting",
+	"displayName": "Author Highlighting for AsciiDoc",
+	"description": "A few highlighting patterns to make AsciiDoc highlighting better for authoring.",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.6.0"
+	},
+	"publisher": "cadnza",
+	"categories": [
+		"Other"
+	],
+	"contributes": {
+		"grammars": [
+			{
+				"path": "./syntaxes/injection.json",
+				"scopeName": "text.asciidoc.multiline-typographic-quotes-double",
+				"injectTo": [
+					"text.asciidoc"
+				]
+			}
+		]
+	}
+}

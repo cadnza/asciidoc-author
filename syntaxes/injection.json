@@ -1,0 +1,29 @@
+{
+	"scopeName": "asciidoc.author",
+	"injectionSelector": "L:text.asciidoc",
+	"patterns": [
+		{
+			"include": "#multiline-typographic-quotes-double"
+		}
+	],
+	"repository": {
+		"multiline-typographic-quotes-double": {
+			"patterns": [
+				{
+					"begin": "it",
+					"beginCaptures": {
+						"0": {
+							"name": "mtqd.begin"
+						}
+					},
+					"end": "was",
+					"endCaptures": {
+						"0": {
+							"name": "mtqd.end"
+						}
+					}
+				}
+			]
+		}
+	}
+}
