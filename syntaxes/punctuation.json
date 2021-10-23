@@ -1,0 +1,15 @@
+{
+	"scopeName": "asciidoc.author.punctuation",
+	"injectionSelector": "L:text.asciidoc",
+	"patterns": [
+		{
+			"include": "#punctuation"
+		}
+	],
+	"repository": {
+		"punctuation": {
+			"match": "[.,:;!?]",
+			"name": "text.asciidoc.author.punctuation"
+		}
+	}
+}
