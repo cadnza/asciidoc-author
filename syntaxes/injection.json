@@ -26,7 +26,7 @@
 		"multiline-typographic-quotes-attribute-assigned": {
 			"begin": "\\{l\\}",
 			"end": "\\{r\\}",
-			"name": "markup.italic.quote.typographic-quotes.attribute-assigned.asciidoc"
+			"name": "markup.italic.quote.typographic-quotes.attribute-assigned-multiline.asciidoc"
 		}
 	}
 }
