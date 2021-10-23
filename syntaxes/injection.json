@@ -13,23 +13,11 @@
 		"multiline-typographic-quotes-double": {
 			"begin": "\"`",
 			"end": "`\"",
-			"beginCaptures": {
-				"0": {"name": "mtqd.begin"}
-			},
-			"endCaptures": {
-				"0": {"name": "mtqd.end"}
-			},
 			"name": "markup.italic.quote.typographic-quotes.multiline.asciidoc"
 		},
 		"multiline-typographic-quotes-single": {
 			"begin": "'`",
 			"end": "`'",
-			"beginCaptures": {
-				"0": {"name": "mtqs.begin"}
-			},
-			"endCaptures": {
-				"0": {"name": "mtqs.end"}
-			},
 			"name": "markup.italic.quote.typographic-quotes.multiline.asciidoc"
 		}
 	}
