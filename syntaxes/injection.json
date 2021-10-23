@@ -1,12 +1,15 @@
 {
 	"scopeName": "asciidoc.author",
-	"injectionSelector": "R:text.asciidoc",
+	"injectionSelector": "L:text.asciidoc",
 	"patterns": [
 		{
 			"include": "#multiline-typographic-quotes-double"
 		},
 		{
 			"include": "#multiline-typographic-quotes-single"
+		},
+		{
+			"include": "#multiline-typographic-quotes-attribute-assigned"
 		}
 	],
 	"repository": {
@@ -19,6 +22,11 @@
 			"begin": "'`",
 			"end": "`'",
 			"name": "markup.italic.quote.typographic-quotes.multiline.asciidoc"
+		},
+		"multiline-typographic-quotes-attribute-assigned": {
+			"begin": "\\{l\\}",
+			"end": "\\{r\\}",
+			"name": "markup.italic.quote.typographic-quotes.attribute-assigned.asciidoc"
 		}
 	}
 }
