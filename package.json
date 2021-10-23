@@ -17,15 +17,8 @@
 	"contributes": {
 		"grammars": [
 			{
-				"path": "./syntaxes/quotes.json",
+				"path": "./syntaxes/injection.json",
 				"scopeName": "asciidoc.author.quotes",
-				"injectTo": [
-					"text.asciidoc"
-				]
-			},
-			{
-				"path": "./syntaxes/punctuation.json",
-				"scopeName": "asciidoc.author.punctuation",
 				"injectTo": [
 					"text.asciidoc"
 				]

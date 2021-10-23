@@ -10,6 +10,12 @@
 		},
 		{
 			"include": "#multiline-typographic-quotes-attribute-assigned"
+		},
+		{
+			"include": "#punctuation"
+		},
+		{
+			"include": "#capitals"
 		}
 	],
 	"repository": {
@@ -27,6 +33,14 @@
 			"begin": "\\{l\\}",
 			"end": "\\{r\\}",
 			"name": "markup.italic.quote.typographic-quotes.attribute-assigned-multiline.asciidoc"
+		},
+		"punctuation": {
+			"match": "[.,:;!?]",
+			"name": "text.asciidoc.author.punctuation"
+		},
+		"capitals": {
+			"match": "[A-Z]",
+			"name": "text.asciidoc.author.capitals"
 		}
 	}
 }
