@@ -18,7 +18,7 @@
 		"grammars": [
 			{
 				"path": "./syntaxes/injection.json",
-				"scopeName": "text.asciidoc.multiline-typographic-quotes-double",
+				"scopeName": "asciidoc.author",
 				"injectTo": [
 					"text.asciidoc"
 				]

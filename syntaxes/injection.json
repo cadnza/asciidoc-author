@@ -8,22 +8,15 @@
 	],
 	"repository": {
 		"multiline-typographic-quotes-double": {
-			"patterns": [
-				{
-					"begin": "it",
-					"beginCaptures": {
-						"0": {
-							"name": "mtqd.begin"
-						}
-					},
-					"end": "was",
-					"endCaptures": {
-						"0": {
-							"name": "mtqd.end"
-						}
-					}
-				}
-			]
+			"begin": "\"`",
+			"end": "`\"",
+			"beginCaptures": {
+				"0": {"name": "mtqd.begin"}
+			},
+			"endCaptures": {
+				"0": {"name": "mtqd.end"}
+			},
+			"name": "text.asciidoc.mtqd"
 		}
 	}
 }
