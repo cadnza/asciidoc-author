@@ -1,14 +1,14 @@
 {
-	"name": "asciidoc-author-highlighting",
-	"displayName": "Author Highlighting for AsciiDoc",
-	"description": "A few highlighting patterns to make AsciiDoc highlighting better for authoring.",
+	"name": "asciidoc-author",
+	"displayName": "AsciiDoc Author",
+	"description": "A few syntax patterns to make AsciiDoc highlighting better for authoring. 🖋",
 	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.6.0"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/cadnza/asciidoc-author-highlighting"
+		"url": "https://github.com/cadnza/asciidoc-author"
 	},
 	"publisher": "cadnza",
 	"categories": [

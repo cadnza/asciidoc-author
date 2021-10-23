@@ -9,7 +9,7 @@ rm $final 2> /dev/null
 vsce package -o $final
 
 # Uninstall old extension
-extId=cadnza.asciidoc-author-highlighting
+extId=cadnza.asciidoc-author
 code --uninstall-extension $extId
 
 # Install new extension
