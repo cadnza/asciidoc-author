@@ -1,6 +1,6 @@
 {
 	"scopeName": "asciidoc.author",
-	"injectionSelector": "L:text.asciidoc",
+	"injectionSelector": "R:text.asciidoc",
 	"patterns": [
 		{
 			"include": "#multiline-typographic-quotes-double"
