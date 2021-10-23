@@ -1,5 +1,5 @@
 {
-	"scopeName": "asciidoc.author",
+	"scopeName": "asciidoc.author.quotes",
 	"injectionSelector": "L:text.asciidoc",
 	"patterns": [
 		{
