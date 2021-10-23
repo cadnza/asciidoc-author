@@ -3,56 +3,9 @@
 	"editor.tokenColorCustomizations": {
 		"textMateRules": [
 			{
-				"scope": "markup.bold",
-				"settings": {
-					"fontStyle": "bold"
-				}
-			},
-			{
-				"scope": "markup.italic",
-				"settings": {
-					"fontStyle": "italic"
-				}
-			},
-			{
-				"scope": "markup.heading",
-				"settings": {
-					"fontStyle": "bold",
-					"foreground": "#FF0000"
-				}
-			},
-			{
 				"scope": "markup.substitution.attribute-reference.asciidoc",
 				"settings": {
 					"foreground": "#66ccff"
-				}
-			},
-			{
-				"scope": "meta.definition.attribute-entry.asciidoc",
-				"settings": {
-					"foreground": "#4da6ff",
-					"fontStyle": "bold"
-				}
-			},
-			{
-				"scope": "entity.name.function.asciidoc",
-				"settings": {
-					"foreground": "#00FF99",
-					"fontStyle": "bold"
-				}
-			},
-			{
-				"scope": "markup.list",
-				"settings": {
-					"foreground": "#CCCCCC",
-					"fontStyle": "bold"
-				}
-			},
-			{
-				"scope": "constant.other.symbol.horizontal-rule.asciidoc",
-				"settings": {
-					"foreground": "#FF0000",
-					"fontStyle": "bold"
 				}
 			},
 			{
