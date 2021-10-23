@@ -5,7 +5,7 @@ cd $(git -C $(dirname $0) rev-parse --show-toplevel)
 
 # Package extension
 final=./test.vsix
-rm $final
+rm $final 2> /dev/null
 vsce package -o $final
 
 # Uninstall old extension
