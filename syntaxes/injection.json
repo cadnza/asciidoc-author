@@ -40,7 +40,7 @@
 		},
 		"attribute-references": {
 			"name": "markup.substitution.attribute-reference.asciidoc",
-			"match": "(?<!\\\\)(\\{)(\\w+(?:[\\-]\\w+)*)(?<!\\\\)(\\})"
+			"match": "(?<!\\\\)(\\{)([a-km-qs-zA-Z0-9_]\\w*(?:[\\-]\\w+)*)(?<!\\\\)(\\})"
 		}
 	}
 }
