@@ -4,6 +4,9 @@
 	"patterns": [
 		{
 			"include": "#multiline-typographic-quotes-double"
+		},
+		{
+			"include": "#multiline-typographic-quotes-single"
 		}
 	],
 	"repository": {
@@ -16,7 +19,18 @@
 			"endCaptures": {
 				"0": {"name": "mtqd.end"}
 			},
-			"name": "text.asciidoc.mtqd"
+			"name": "markup.italic.quote.typographic-quotes.multiline.asciidoc"
+		},
+		"multiline-typographic-quotes-single": {
+			"begin": "'`",
+			"end": "`'",
+			"beginCaptures": {
+				"0": {"name": "mtqs.begin"}
+			},
+			"endCaptures": {
+				"0": {"name": "mtqs.end"}
+			},
+			"name": "markup.italic.quote.typographic-quotes.multiline.asciidoc"
 		}
 	}
 }
