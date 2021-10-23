@@ -15,7 +15,7 @@
 			"include": "#punctuation"
 		},
 		{
-			"include": "#capitals"
+			"include": "#attribute-references"
 		}
 	],
 	"repository": {
@@ -38,9 +38,9 @@
 			"match": "[\\.,:;!?]",
 			"name": "text.asciidoc.author.punctuation"
 		},
-		"capitals": {
-			"match": "[A-Z]",
-			"name": "text.asciidoc.author.capitals"
+		"attribute-references": {
+			"name": "markup.substitution.attribute-reference.asciidoc",
+			"match": "(?<!\\\\)(\\{)(\\w+(?:[\\-]\\w+)*)(?<!\\\\)(\\})"
 		}
 	}
 }
