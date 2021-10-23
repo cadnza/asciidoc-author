@@ -14,6 +14,9 @@
 	"categories": [
 		"Other"
 	],
+	"extensionDependencies": [
+		"asciidoctor.asciidoctor-vscode"
+	],
 	"contributes": {
 		"grammars": [
 			{
