@@ -12,7 +12,28 @@
 			"include": "#multiline-typographic-quotes-attribute-assigned"
 		},
 		{
-			"include": "#punctuation"
+			"include": "#punctuation-period"
+		},
+		{
+			"include": "#punctuation-comma"
+		},
+		{
+			"include": "#punctuation-colon"
+		},
+		{
+			"include": "#punctuation-semicolon"
+		},
+		{
+			"include": "#punctuation-exclamation"
+		},
+		{
+			"include": "#punctuation-question"
+		},
+		{
+			"include": "#punctuation-apostrophe"
+		},
+		{
+			"include": "#punctuation-hyphen"
 		},
 		{
 			"include": "#attribute-references"
@@ -40,9 +61,37 @@
 			"end": "\\{r\\}",
 			"name": "markup.italic.quote.typographic-quotes.attribute-assigned-multiline.asciidoc"
 		},
-		"punctuation": {
-			"match": "[\\.,:;!?'-]",
-			"name": "text.asciidoc.author.punctuation"
+		"punctuation-period": {
+			"match": "\\.",
+			"name": "text.asciidoc.author.punctuation.period"
+		},
+		"punctuation-comma": {
+			"match": ",",
+			"name": "text.asciidoc.author.punctuation.comma"
+		},
+		"punctuation-colon": {
+			"match": ":",
+			"name": "text.asciidoc.author.punctuation.colon"
+		},
+		"punctuation-semicolon": {
+			"match": ";",
+			"name": "text.asciidoc.author.punctuation.semicolon"
+		},
+		"punctuation-exclamation": {
+			"match": "!",
+			"name": "text.asciidoc.author.punctuation.exclamation"
+		},
+		"punctuation-question": {
+			"match": "\\?",
+			"name": "text.asciidoc.author.punctuation.question"
+		},
+		"punctuation-apostrophe": {
+			"match": "'",
+			"name": "text.asciidoc.author.punctuation.apostrophe"
+		},
+		"punctuation-hyphen": {
+			"match": "-",
+			"name": "text.asciidoc.author.punctuation.hyphen"
 		},
 		"attribute-references": {
 			"name": "markup.substitution.attribute-reference.asciidoc",
