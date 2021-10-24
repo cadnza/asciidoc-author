@@ -45,6 +45,9 @@
 			"include": "#punctuation-hyphen"
 		},
 		{
+			"include": "#punctuation-parens"
+		},
+		{
 			"include": "#attribute-references"
 		},
 		{
@@ -113,6 +116,10 @@
 		"punctuation-hyphen": {
 			"match": "-",
 			"name": "text.asciidoc.author.punctuation.hyphen"
+		},
+		"punctuation-parens": {
+			"match": "[\\(\\)]",
+			"name": "text.asciidoc.author.punctuation.paren"
 		},
 		"attribute-references": {
 			"name": "markup.substitution.attribute-reference.asciidoc",
