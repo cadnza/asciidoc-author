@@ -41,7 +41,7 @@ A few of the features:
 			}
 		},
 		{
-			"scope": "markup.italic.quote.typographic-quotes.attribute-assigned-multiline.asciidoc",
+			"scope": "markup.italic.quote.typographic-quotes.multiline.attribute-assigned.asciidoc",
 			"settings": {
 				"foreground": "#AA80FF"
 			}
