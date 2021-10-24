@@ -33,6 +33,15 @@
 			"include": "#punctuation-apostrophe"
 		},
 		{
+			"include": "#punctuation-emdash-hyphens"
+		},
+		{
+			"include": "#punctuation-emdash-formal"
+		},
+		{
+			"include": "#punctuation-endash-formal"
+		},
+		{
 			"include": "#punctuation-hyphen"
 		},
 		{
@@ -88,6 +97,18 @@
 		"punctuation-apostrophe": {
 			"match": "'",
 			"name": "text.asciidoc.author.punctuation.apostrophe"
+		},
+		"punctuation-emdash-hyphens": {
+			"match": "--",
+			"name": "text.asciidoc.author.punctuation.emdash.hyphens"
+		},
+		"punctuation-emdash-formal": {
+			"match": "—",
+			"name": "text.asciidoc.author.punctuation.emdash.formal"
+		},
+		"punctuation-endash-formal": {
+			"match": "–",
+			"name": "text.asciidoc.author.punctuation.endash.formal"
 		},
 		"punctuation-hyphen": {
 			"match": "-",
