@@ -41,7 +41,7 @@
 			"name": "markup.italic.quote.typographic-quotes.attribute-assigned-multiline.asciidoc"
 		},
 		"punctuation": {
-			"match": "[\\.,:;!?]",
+			"match": "[\\.,:;!?']",
 			"name": "text.asciidoc.author.punctuation"
 		},
 		"attribute-references": {
