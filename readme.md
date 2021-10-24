@@ -12,6 +12,7 @@ A few of the features:
 -   Multi-line quote support
 -   Formatting for `{l}` and `{r}` as quote attributes if you're using non-standard quotes
 -   Bold, italic, and attribute highlighting within quote strings
+-   Formatting for punctuation
 
 ## Before
 
