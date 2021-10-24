@@ -5,7 +5,9 @@
 ![](https://img.shields.io/visual-studio-marketplace/i/cadnza.asciidoc-author)
 ![](https://img.shields.io/visual-studio-marketplace/stars/cadnza.asciidoc-author)
 
-A few tiny pushes to make AsciiDoc authoring in VSCode more fun, especially when you're writing [one sentence per line](https://asciidoctor.org/docs/asciidoc-recommended-practices/#one-sentence-per-line). A few of the features:
+A few tiny pushes to make AsciiDoc authoring in VSCode more fun, especially when you're writing [one sentence per line](https://asciidoctor.org/docs/asciidoc-recommended-practices/#one-sentence-per-line). Think of it as syntax highlighting for your manuscript. 🎨
+
+A few of the features:
 
 -   Multi-line quote support
 -   Formatting for `{l}` and `{r}` as quote attributes if you're using non-standard quotes
