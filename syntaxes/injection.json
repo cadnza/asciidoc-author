@@ -60,17 +60,17 @@
 	"repository": {
 		"multiline-typographic-quotes-double": {
 			"begin": "\"`",
-			"end": "`\"",
+			"end": "`\"|\\{endq\\}",
 			"name": "markup.italic.quote.typographic-quotes.multiline.double.asciidoc"
 		},
 		"multiline-typographic-quotes-single": {
 			"begin": "'`",
-			"end": "`'",
+			"end": "`'|\\{endq\\}",
 			"name": "markup.italic.quote.typographic-quotes.multiline.single.asciidoc"
 		},
 		"multiline-typographic-quotes-attribute-assigned": {
 			"begin": "\\{l\\}",
-			"end": "\\{r\\}",
+			"end": "\\{r\\}|\\{endq\\}",
 			"name": "markup.italic.quote.typographic-quotes.multiline.attribute-assigned.asciidoc"
 		},
 		"punctuation-period": {
@@ -123,7 +123,7 @@
 		},
 		"attribute-references": {
 			"name": "markup.substitution.attribute-reference.asciidoc",
-			"match": "(?<!\\\\)(\\{)([a-km-qs-zA-Z0-9_]\\w*(?:[\\-]\\w+)*)(?<!\\\\)(\\})"
+			"match": "(?<!\\\\)(\\{(?!(l\\}|r\\}|endq\\})))(\\w+(?:[\\-]\\w+)*)(?<!\\\\)(\\})"
 		},
 		"emphasis": {
 			"patterns": [
