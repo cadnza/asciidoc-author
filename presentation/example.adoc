@@ -3,6 +3,7 @@
 :uuncl: Uncle
 :l: &laquo;
 :r: &raquo;
+:endq:
 
 The door of {scrg}'s counting-house was open that he might keep his eye upon his clerk, who in a dismal little cell beyond, a sort of tank, was copying letters.
 {scrg} had a very small fire, but the clerk's fire was so very much smaller that it looked like one coal.
@@ -24,8 +25,9 @@ his eyes sparkled, and his breath smoked again.
 {l}You don't mean that, I am sure?{r}
 
 "`I do,`" said {scrg}.
-"`Merry Christmas!
-What right have you to be merry?
+"`Merry Christmas!{endq}
+
+"`What right have you to be merry?
 What reason have you to be merry?
 You're poor enough.`"
 
