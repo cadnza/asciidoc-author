@@ -9,6 +9,12 @@
 			"include": "#multiline-typographic-quotes-single"
 		},
 		{
+			"include": "#multiline-typographic-quotes-double-continuing"
+		},
+		{
+			"include": "#multiline-typographic-quotes-single-continuing"
+		},
+		{
 			"include": "#multiline-typographic-quotes-attribute-assigned"
 		},
 		{
@@ -60,13 +66,23 @@
 	"repository": {
 		"multiline-typographic-quotes-double": {
 			"begin": "\"`",
-			"end": "`\"|\\{endq\\}",
+			"end": "`\"",
 			"name": "markup.italic.quote.typographic-quotes.multiline.double.asciidoc"
 		},
 		"multiline-typographic-quotes-single": {
 			"begin": "'`",
-			"end": "`'|\\{endq\\}",
+			"end": "`'",
 			"name": "markup.italic.quote.typographic-quotes.multiline.single.asciidoc"
+		},
+		"multiline-typographic-quotes-double-continuing": {
+			"begin": "\\{openqd\\}",
+			"end": "\\{endq\\}",
+			"name": "markup.italic.quote.typographic-quotes.multiline.double.continuing.asciidoc"
+		},
+		"multiline-typographic-quotes-single-continuing": {
+			"begin": "\\{openqs\\}",
+			"end": "\\{endq\\}",
+			"name": "markup.italic.quote.typographic-quotes.multiline.single.continuing.asciidoc"
 		},
 		"multiline-typographic-quotes-attribute-assigned": {
 			"begin": "\\{l\\}",
@@ -123,7 +139,7 @@
 		},
 		"attribute-references": {
 			"name": "markup.substitution.attribute-reference.asciidoc",
-			"match": "(?<!\\\\)(\\{(?!(l\\}|r\\}|endq\\})))(\\w+(?:[\\-]\\w+)*)(?<!\\\\)(\\})"
+			"match": "(?<!\\\\)(\\{(?!(l\\}|r\\}|endq\\}|openqd\\}|openqs\\})))(\\w+(?:[\\-]\\w+)*)(?<!\\\\)(\\})"
 		},
 		"emphasis": {
 			"patterns": [
