@@ -36,6 +36,9 @@
 			"include": "#punctuation-question"
 		},
 		{
+			"include": "#punctuation-questionback"
+		},
+		{
 			"include": "#punctuation-apostrophe"
 		},
 		{
@@ -112,6 +115,10 @@
 		"punctuation-question": {
 			"match": "\\?",
 			"name": "text.asciidoc.author.punctuation.question"
+		},
+		"punctuation-questionback": {
+			"match": "¿",
+			"name": "text.asciidoc.author.punctuation.questionback"
 		},
 		"punctuation-apostrophe": {
 			"match": "'",
