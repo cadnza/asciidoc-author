@@ -2,7 +2,7 @@
 	"name": "asciidoc-author",
 	"displayName": "AsciiDoc Author",
 	"description": "A few syntax patterns to make AsciiDoc highlighting better for authoring. 🖋",
-	"version": "2.2.0",
+	"version": "2.2.1",
 	"engines": {
 		"vscode": "^1.6.0"
 	},
