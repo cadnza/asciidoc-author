@@ -69,12 +69,12 @@
 	"repository": {
 		"multiline-typographic-quotes-double": {
 			"begin": "\"`",
-			"end": "`\"",
+			"end": "(`\"|\\{endq\\})",
 			"name": "markup.italic.quote.typographic-quotes.multiline.double.asciidoc"
 		},
 		"multiline-typographic-quotes-single": {
 			"begin": "'`",
-			"end": "`'",
+			"end": "(`'|\\{endq\\})",
 			"name": "markup.italic.quote.typographic-quotes.multiline.single.asciidoc"
 		},
 		"multiline-typographic-quotes-double-continuing": {
